@@ -3,6 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'antd/dist/antd.variable.css';
+import { ConfigProvider } from 'antd';
+
+ConfigProvider.config({
+  theme:{
+      primaryColor:"#003658",
+      errorColor:"#D43c37",
+      infoColor:"#00ABEC",
+      processingColor:"#33BA75",
+      successColor:"#008866",
+      warningColor:"#F4AD3D"
+  }
+});
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

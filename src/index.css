@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.ant-layout {
+  height: 100vh;
+  }
+  #root{
+    min-height: 100%;}
+
+    .container{
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+    .hidden{
+      display: none;
+    }
+    .block{
+      display: block;
+    }
+    .layout-right{
+      min-width: 250px i !important;
+    }
