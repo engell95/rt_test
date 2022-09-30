@@ -13,6 +13,18 @@
   }
 }
 
+.ant-tabs {
+  height: 100%;
+}
+
+.ant-tabs-content-holder {
+  display: flex;
+}
+
+.ant-layout-content {
+  min-height: auto !important; 
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

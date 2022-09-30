@@ -1,1 +1,1 @@
-export * from "./poke.services";
+export * from "./info.services";
